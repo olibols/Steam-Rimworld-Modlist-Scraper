@@ -2,6 +2,8 @@
 
 **RimLists** is a user-friendly script designed to create a RimWorld modlist from a Steam Workshop collection URL. The generated modlist is compatible with [RimPy Mod Manager for RimWorld](https://github.com/rimpy-custom/RimPy).
 
+Additionally, **RimLists** now includes a tool for merging two RimWorld modpack XML files.
+
 ## Quick Start Guide
 
 ### Release
@@ -27,16 +29,25 @@ You can find the built binaries inside the releases tab to the right. This will 
      pip install -r requirements.txt
      ```
 
-4. **Run the Tool:**
+4. **Run the Modlist Creator:**
    ```bash
    python main.py
    ```
 
-5. **Using the Tool:**
+5. **Using the Modlist Creator:**
    - Paste your Steam Workshop Collection URL
    - Choose where to save the modlist (defaults to RimPy's ModLists folder)
    - Toggle "Include DLCs" if you want DLCs in your modlist
    - Click "Start"!
+
+6. **Run the Modlist Merger:**
+   ```bash
+   python merge_modlists.py
+   ```
+
+7. **Using the Modlist Merger:**
+   - A GUI will open where you can select the two XML files to merge and specify the output file location.
+   - Click "Start" to perform the merge.
 
 ## Detailed Instructions
 
