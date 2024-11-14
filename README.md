@@ -4,6 +4,10 @@
 
 ## Quick Start Guide
 
+### Release
+You can find the built binaries inside the releases tab to the right. This will download a single exe which wraps the entire program. Use it if you trust me, it's dead simple.
+
+### Manual
 1. **Install Python:** Download and install [Python 3.9 or higher](https://www.python.org/downloads/)
    - During installation, make sure to check "Add Python to PATH"
 
